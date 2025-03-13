@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrjVinculo.NewPage1"
+             Title="ProdutoPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Descrição"
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
+        <Label 
+            Text="Café"
+            VerticalOptions="Start" 
+            HorizontalOptions="End" />
+        <Label 
+            Text="Preço"
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
+        <Label 
+            Text="25,50"
+            VerticalOptions="Start" 
+            HorizontalOptions="End" />
+        <Label 
+            Text="Categoria"
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
+        <Label 
+            Text="Alimento"
+            VerticalOptions="Start" 
+            HorizontalOptions="End" />
+    </VerticalStackLayout>
+</ContentPage>
